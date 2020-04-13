@@ -13,7 +13,6 @@
 .navbar ul {
     border-left: 2px black solid;
     list-style-type: none;
-    float: right;
     padding: 15px 10px;
     font-size: 30px;
 }
@@ -52,8 +51,5 @@
 }
 
 img {
-    width: 400px;
-    float: right;
-    transform: translate(0, -50%);
-    float: right;
+    width: 200px;
 }
