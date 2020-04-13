@@ -65,5 +65,6 @@ ul li a:hover:before {
 img {
     width: 800px;
     position: absolute;
-    
+    top: 50%;
+    transform: translate(0, -50%);
 }
