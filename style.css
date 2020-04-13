@@ -24,9 +24,6 @@
     float: right;
     padding: 15px 10px;
     font-size: 30px;
-    top: 50%;
-    position: absolute;
-    transform:translate(0, -50%);
 }
 
 .navbar ul li {
@@ -64,9 +61,8 @@ ul li a:hover:before {
 }
 
 img {
-    width: 800px;
-    position: absolute;
-    top: 50%;
+    width: 400px;
+    float: right;
     transform: translate(0, -50%);
     float: right;
 }
