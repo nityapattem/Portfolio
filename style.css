@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: "Bilo", sans-serif;
-    background-color:white;
+    background-color: white;
+    overflow: hidden
 }
 
 .navbar {
@@ -67,4 +68,5 @@ img {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
+    float: right;
 }
