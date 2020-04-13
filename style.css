@@ -10,12 +10,13 @@
     margin: 0;
     position: absolute;
     top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .navbar {
     margin-top: 25px;
+    margin-left: 100px;
 }
 
 .navbar ul {
@@ -60,4 +61,14 @@ ul li a:hover:before {
 
 img {
     height: 396px;
+    animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-359deg);
+    }
 }
