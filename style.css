@@ -5,6 +5,11 @@
     background-color: white;
 }
 
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
 .navbar {
     width: 30vw;
     height: 100vh;
