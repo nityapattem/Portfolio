@@ -127,3 +127,8 @@ ul li a:hover:before {
     justify-content: center;
     flex-direction: column;
 }
+
+.text p {
+    padding-top: 1em;
+    font-size: large;
+}
