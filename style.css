@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 * {
     padding: 0;
     margin: 0;
@@ -14,6 +16,9 @@ header {
     background-position: 50% 50%;
     background-color: rgb(255, 255, 255);
 }
+
+
+/* INDEX */
 
 .main {
     display: flex;
@@ -78,3 +83,21 @@ ul li a:hover:before {
         transform: rotate(-359deg);
     }
 }*/
+
+
+/* PAGES */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container div {
+    height: 100px;
+    width: 100px;
+}
+
+.container div img {
+    max-width: 100%;
+    max-height: 100%;
+}
