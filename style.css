@@ -2,7 +2,16 @@
     padding: 0;
     margin: 0;
     font-family: "Bilo", sans-serif;
-    background-color: white;
+}
+
+header {
+    background-image: url(../pinwheel-wheel.png);
+    background-position: centre;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 .main {
