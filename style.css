@@ -4,7 +4,7 @@
     font-family: "Bilo", sans-serif;
 }
 
-header {
+/*header {
     background-image: url(../pinwheel-wheel.png);
     background-position: centre;
     width: 100vw;
@@ -12,7 +12,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-}
+}*/
 
 .main {
     display: flex;
