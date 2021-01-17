@@ -1,4 +1,4 @@
-/* GLOBAL */
+/* -------------------- GLOBAL -------------------- */
 
 * {
     padding: 0;
@@ -18,7 +18,7 @@ header {
 }
 
 
-/* INDEX */
+/* -------------------- INDEX -------------------- */
 
 .main {
     display: flex;
@@ -85,7 +85,7 @@ ul li a:hover:before {
 }*/
 
 
-/* PAGES */
+/* -------------------- PAGES -------------------- */
 
 .scroll {
     scroll-snap-type: y mandatory;
