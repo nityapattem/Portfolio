@@ -4,15 +4,16 @@
     font-family: "Bilo", sans-serif;
 }
 
-/*header {
-    background-image: url(../pinwheel-wheel.png);
+header {
+    /*background-image: url(../pinwheel-wheel.png);*/
     background-position: centre;
     width: 100vw;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-}*/
+    background-color: rgb(255, 255, 255);
+}
 
 .main {
     display: flex;
@@ -23,26 +24,22 @@
     transform: translate(-50%, -50%);
 }
 
-.navbar {
-    margin-top: 25px;
-    margin-left: 100px;
-}
-
-.navbar ul {
-    border-left: 2px black solid;
+.main ul {
     list-style-type: none;
     padding: 15px 10px;
     font-size: 30px;
 }
 
-.navbar ul li {
+.main ul li {
     padding: 20px 40px;
+    text-align: center;
 }
 
-.navbar ul li a {
+.main ul li a {
     text-decoration: none;
     color: black;
     position: relative;
+
 }
 
 ul li.active a:before {
