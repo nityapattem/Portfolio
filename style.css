@@ -1,9 +1,15 @@
 /* -------------------- GLOBAL -------------------- */
 
+:root {
+    --textcolor: rgb(100, 100, 100);
+    --backdropcolor: rgb(255, 255, 255);
+ }
+
 * {
     padding: 0;
     margin: 0;
     font-family: "Bilo", sans-serif;
+    color: var(--textcolor);
 }
 
 header {
@@ -14,7 +20,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--backdropcolor);
 }
 
 
@@ -42,9 +48,8 @@ header {
 
 .main ul li a {
     text-decoration: none;
-    color: black;
+    color: var(--textcolor);
     position: relative;
-
 }
 
 ul li.active a:before {
@@ -62,7 +67,7 @@ ul li a:before {
     width: 0;
     height: 3px;
     bottom: -2px;
-    background-color:rgb(0, 0, 0);
+    background-color:var(--textcolor);
     transition: all 0.3s ease-in-out;
 }
 
@@ -128,7 +133,26 @@ ul li a:hover:before {
     flex-direction: column;
 }
 
+.text h1 {
+    font-size: 3em;
+}
+
 .text p {
     padding-top: 1em;
-    font-size: large;
+    font-size: 1.2em;
+}
+
+.design {
+    scroll-snap-align: start;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 5em;
+    background-color: var(--textcolor);
+}
+
+.design h1 {
+    color: var(--backdropcolor);
 }
