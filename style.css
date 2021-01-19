@@ -3,7 +3,7 @@
 :root {
     --textcolor: rgb(100, 100, 100);
     --backdropcolor: rgb(255, 255, 255);
- }
+}
 
 * {
     padding: 0;
@@ -13,13 +13,8 @@
 }
 
 header {
-    /*background-image: url(../pinwheel-wheel.png);*/
-    background-position: centre;
     width: 100vw;
     height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
     background-color: var(--backdropcolor);
 }
 
@@ -91,13 +86,7 @@ header {
     justify-content: center;
     padding: 10vh 5vw;
     scroll-snap-align: start;
-}
-.box:hover {
-    padding: 8vh 3vw;
-    max-height: 84vh;
-    min-height: 84vh;
-    max-width: 49vw;
-    min-width: 49vw;
+    transition: 0.3s;
 }
 
 .box img {
